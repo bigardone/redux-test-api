@@ -20,6 +20,7 @@ Rails.application.routes.draw do
 
       get '/dummy', to: 'dummy#hello'
 
+      resources :people
     end
 
   end
